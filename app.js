@@ -24,7 +24,7 @@ const initializeDbAndServer=async()=>{
 initializeDbAndServer();
 const hasPriorityAndStatusProperties=(requestQuery)=>{
     return(
-        requestQuery.priority!=undefined && requestQuery.status!=undefined;
+        requestQuery.priority!=undefined && requestQuery.status!=undefined
     );
 };
 const hasPriorityProperty=(requestQuery)=>{
